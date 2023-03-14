@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.VerifyResisterPage">
+      <class name="com.TestNG.VerifyLeaderSpeakPage">
         <methods>
-          <include name="NavigateToMainPage"/>
-          <include name="openRegisterForm"/>
-          <include name="VerifyBasicDetails"/>
-          <include name="CloseBrowser"/>
-          <include name="verifyBooking"/>
+          <include name="verifyLeaderSpeakButton"/>
+          <include name="goToMainPage"/>
+          <include name="verifyAnnouncementSection"/>
+          <include name="launchMyConnectTing"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.TestNG.VerifyResisterPage -->
+      </class> <!-- com.TestNG.VerifyLeaderSpeakPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

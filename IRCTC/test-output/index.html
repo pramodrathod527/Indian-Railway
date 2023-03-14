@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\C zone\AppData\Local\Temp\testng-eclipse-362319643\testng-customsuite.xml</span>
+                    <span>C:\Users\C zone\AppData\Local\Temp\testng-eclipse-1781614923\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.TestNG.VerifyResisterPage" class="method navigator-link" hash-for-method="VerifyBasicDetails">VerifyBasicDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestNG.VerifyLeaderSpeakPage" class="method navigator-link" hash-for-method="verifyAnnouncementSection">verifyAnnouncementSection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.TestNG.VerifyResisterPage" class="method navigator-link" hash-for-method="verifyBooking">verifyBooking</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestNG.VerifyLeaderSpeakPage" class="method navigator-link" hash-for-method="verifyLeaderSpeakButton">verifyLeaderSpeakButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +127,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.TestNG.VerifyResisterPage</span>
+              <span class="class-name">com.TestNG.VerifyLeaderSpeakPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyBasicDetails">
-                  </a> <!-- VerifyBasicDetails -->
-                  <span class="method-name">VerifyBasicDetails</span>
+                  <a name="verifyAnnouncementSection">
+                  </a> <!-- verifyAnnouncementSection -->
+                  <span class="method-name">verifyAnnouncementSection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBooking">
-                  </a> <!-- verifyBooking -->
-                  <span class="method-name">verifyBooking</span>
+                  <a name="verifyLeaderSpeakButton">
+                  </a> <!-- verifyLeaderSpeakButton -->
+                  <span class="method-name">verifyLeaderSpeakButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\C zone\AppData\Local\Temp\testng-eclipse-362319643\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\C zone\AppData\Local\Temp\testng-eclipse-1781614923\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.TestNG.VerifyResisterPage&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.VerifyLeaderSpeakPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -200,18 +200,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyBasicDetails')
-data.setCell(0, 2, 'com.TestNG.VerifyResisterPage')
-data.setCell(0, 3, 18653);
+data.setCell(0, 1, 'verifyLeaderSpeakButton')
+data.setCell(0, 2, 'com.TestNG.VerifyLeaderSpeakPage')
+data.setCell(0, 3, 6789);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyBooking')
-data.setCell(1, 2, 'com.TestNG.VerifyResisterPage')
-data.setCell(1, 3, 2268);
+data.setCell(1, 1, 'verifyAnnouncementSection')
+data.setCell(1, 2, 'com.TestNG.VerifyLeaderSpeakPage')
+data.setCell(1, 3, 335);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,39 +237,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.TestNG.VerifyResisterPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.TestNG.VerifyLeaderSpeakPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">openRegisterForm</span>
-                <span class="method-start">3476 ms</span>
+                <span class="method-name">launchMyConnectTing</span>
+                <span class="method-start">17486 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyBasicDetails</span>
-                <span class="method-start">19977 ms</span>
+                <span class="method-name">verifyAnnouncementSection</span>
+                <span class="method-start">49601 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">NavigateToMainPage</span>
-                <span class="method-start">38637 ms</span>
+                <span class="method-name">goToMainPage</span>
+                <span class="method-start">49943 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">openRegisterForm</span>
-                <span class="method-start">39005 ms</span>
+                <span class="method-name">launchMyConnectTing</span>
+                <span class="method-start">51698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBooking</span>
-                <span class="method-start">46002 ms</span>
+                <span class="method-name">verifyLeaderSpeakButton</span>
+                <span class="method-start">52134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">NavigateToMainPage</span>
-                <span class="method-start">48273 ms</span>
+                <span class="method-name">goToMainPage</span>
+                <span class="method-start">58926 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">CloseBrowser</span>
-                <span class="method-start">48474 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
